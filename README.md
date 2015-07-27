@@ -16,3 +16,4 @@ comments. Be sure to read everything. Run lab2.js with `node lab2.js`.
 
 
 #### Resources and Collaborators
+mdn and help from Will on some issues on part 3
