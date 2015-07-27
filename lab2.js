@@ -191,7 +191,7 @@ function lastLetterSort(stringArray) {
   return stringArray;
 }
 var names = ['felix', 'cano', 'cruz', 'seager'];
-var alWest = ['seattle', 'houston', 'los angeles', 'oakland'];
+var alWest = ['seattle', 'houston', 'texas', 'los angeles', 'oakland'];
 
 function sumArray(numberArray) {
   var sum = 0;
@@ -226,8 +226,8 @@ var mariners2015Starters = [[3, 20, 22, 5, 15], [35, 16, 7], [23],
 
 assert(lastLetterSort(names).toString() === 'cano,seager,felix,cruz',
   'last letter alphabetically should be o-r-x-z');
-assert(lastLetterSort(alWest).toString() === 'oakland,seattle,houston,los angeles',
-  'last letter alphabetically should be d-e-n-s');
+assert(lastLetterSort(alWest).toString() === 'oakland,seattle,houston,texas,los angeles',
+  'last letter alphabetically should be d-e-n-s-s');
 assert(sumArray(numbers) === 34 + 22 + 23 + 15,
   'the numbers should add up to 94');
 assert(sumArray(ichiroMarinerHits) === 2533,
